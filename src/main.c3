@@ -1,8 +1,8 @@
 module ctree;
+
 import std::io;
 import std::net::tcp;
 import std::thread;
-import std::collections::list;
 
 const WORKERS   = 4;
 const QUEUE_CAP = 1024;
